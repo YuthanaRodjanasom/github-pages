@@ -1,7 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const [count, setCount] = useState(0);
@@ -16,7 +15,6 @@ const HomePage = () => {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <Link to="2">link</Link>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
