@@ -1,6 +1,6 @@
 import { createHashRouter } from "react-router-dom";
-import HomePage from "../HomePage";
-import Contacts from "../Contacts";
+import Contacts from "../pages/Contacts";
+import HomePage from "../pages/HomePage";
 
 export const router = createHashRouter([
   {
